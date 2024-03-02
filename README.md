@@ -20,7 +20,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-![Screenshot](/qr-code-preview-card/screenshots/screenshotQRcode.png)
+![Screenshot](qr-code-preview-card/screenshots/screenshotQRcode.png)
 
 Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
 
