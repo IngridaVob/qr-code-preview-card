@@ -28,7 +28,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - CSS custom properties
 
 ### What I learned
-I learnd css box model. The most dificult part was to center qr code preview card's borderbox. At this time I made it using margin and padding properties, also pseudoclasses ::before and ::after. But I think there are better way to achierve this with flexbox.
+I learned about the CSS box model. The most difficult part was centering the border box of the QR code preview card. I managed to achieve it using the margin and padding properties, as well as pseudo-classes ::before and ::after. However, I believe there might be a better way to achieve this using flexbox.
 
 css
     *::before,
