@@ -28,36 +28,24 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - CSS custom properties
 
 ### What I learned
+I learnd css box model. The most dificult part was to center qr code preview card's borderbox. At this time I made it using margin and padding properties, also pseudoclasses ::before and ::after. But I think there are better way to achierve this with flexbox.
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-
+css
+    *::before,
+    *::after {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
 ### Continued development
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+I'm still not completely comfortable and need more practice with the box model, so I want to continue focusing on it. Besides, I want to learn more about responsive website design (flexbox and grid) in future projects.
 
 
 ### Useful resources
 
-https://css-tricks.com/ - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-https://chat.openai.com/
+https://css-tricks.com/ - Super website about CSS. I found it from Angela Yu's bootcamp. You can dive deeper into CSS and find answers here."
+https://chat.openai.com/ - ChatGPT really saved my time. I found it to be a good problem solver and helper. If you couldn't find bugs and got stuck on them, try it.
 
 
 ## Author
